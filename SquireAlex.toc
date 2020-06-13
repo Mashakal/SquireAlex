@@ -1,0 +1,13 @@
+## Title: SquireAlex
+## Version: 1.0
+## Author: alexn
+## Interface: 80205
+## SavedVariablesPerCharacter:  SquireAlex_StatsXP_CharGameState
+## SavedVariables:  SquireAlex_StatsXP_GlobalGameState
+
+init.lua
+config.lua
+core\reference.lua
+core\util.lua
+core\player.lua
+Stats\StatsXP.xml
