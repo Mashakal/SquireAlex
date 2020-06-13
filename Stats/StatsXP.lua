@@ -117,8 +117,8 @@ end
 
 local function StatsXP_onAddonLoaded ()
 	print("Initializing SquireAlex: XP Stats")
-	cState = SquireAlex_StatsXP_CharGameState
-	gState = SquireAlex_StatsXP_GlobalGameState
+	cState = SquireAlex_StatsXP_CharGameState or {}
+	gState = SquireAlex_StatsXP_GlobalGameState or {}
 	cState.sessions = cState.sessions or {}
 	if #cState.sessions > 0 then
 		print("Using existing sessions data.")
